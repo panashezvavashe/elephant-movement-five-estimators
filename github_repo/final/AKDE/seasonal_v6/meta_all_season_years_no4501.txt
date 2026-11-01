@@ -1,0 +1,13 @@
+=== all_season_years_no4501 ===
+                    ΔAICc
+inverse-Gaussian   0.0000
+Dirac-δ          567.8665
+                    ΔAICc
+inverse-Gaussian    0.000
+Dirac-δ          1488.958
+                    ΔAICc
+inverse-Gaussian    0.000
+Dirac-δ          2418.189
+                    ΔAICc
+Sub-population   0.000000
+Joint population 8.369308

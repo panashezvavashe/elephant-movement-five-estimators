@@ -1,0 +1,5 @@
+"Elephant","Model","AIC","delta_AIC","AIC_weight","Best"
+4558,"OUF anisotropic",279165.03,0,0.988,TRUE
+4558,"OUF",279173.81,8.78,0.012,FALSE
+4558,"OU anisotropic",281436.54,2271.5,0,FALSE
+4558,"OUf anisotropic",286713.07,7548.04,0,FALSE

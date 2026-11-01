@@ -1,0 +1,21 @@
+"subset","pair","type","n","rho","boot_low","boot_high","p","p_holm"
+"all","dBBMM vs SAEK","occurrence-occurrence",10,0.867,0.444,1,0.00268,0.0268
+"all","SAEK vs aLoCoH","occurrence-fix geometry",10,0.867,0.405,1,0.00268,0.0268
+"all","SAEK vs TGD","occurrence-occurrence",10,0.842,0.362,1,0.00446,0.0357
+"all","AKDE vs SAEK","range-occurrence",10,0.818,0.259,1,0.00681,0.0477
+"all","dBBMM vs aLoCoH","occurrence-fix geometry",10,0.782,0.358,0.961,0.0117,0.0702
+"all","TGD vs aLoCoH","occurrence-fix geometry",10,0.733,0.125,1,0.0212,0.106
+"all","AKDE vs aLoCoH","range-fix geometry",10,0.721,0.019,0.988,0.0242,0.106
+"all","AKDE vs dBBMM","range-occurrence",10,0.685,0.1,0.987,0.0351,0.106
+"all","AKDE vs TGD","range-occurrence",10,0.685,-0.062,0.988,0.0351,0.106
+"all","dBBMM vs TGD","occurrence-occurrence",10,0.624,-0.08,0.962,0.0602,0.106
+"no4501","dBBMM vs SAEK","occurrence-occurrence",9,0.933,0.58,1,0.00075,0.0075
+"no4501","SAEK vs TGD","occurrence-occurrence",9,0.85,0.368,1,0.00607,0.0546
+"no4501","AKDE vs SAEK","range-occurrence",9,0.817,0.229,1,0.0108,0.0864
+"no4501","dBBMM vs aLoCoH","occurrence-fix geometry",9,0.817,0.182,0.983,0.0108,0.0864
+"no4501","SAEK vs aLoCoH","occurrence-fix geometry",9,0.817,0.243,1,0.0108,0.0864
+"no4501","AKDE vs dBBMM","range-occurrence",9,0.783,0.128,1,0.0172,0.0864
+"no4501","dBBMM vs TGD","occurrence-occurrence",9,0.717,-0.077,1,0.0369,0.148
+"no4501","AKDE vs TGD","range-occurrence",9,0.7,-0.096,1,0.0433,0.148
+"no4501","AKDE vs aLoCoH","range-fix geometry",9,0.7,-0.212,0.983,0.0433,0.148
+"no4501","TGD vs aLoCoH","occurrence-fix geometry",9,0.7,-0.053,1,0.0433,0.148

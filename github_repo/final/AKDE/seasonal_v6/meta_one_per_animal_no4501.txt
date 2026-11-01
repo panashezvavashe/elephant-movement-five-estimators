@@ -1,0 +1,13 @@
+=== one_per_animal_no4501 ===
+                    ΔAICc
+inverse-Gaussian   0.0000
+Dirac-δ          136.4897
+                    ΔAICc
+inverse-Gaussian   0.0000
+Dirac-δ          431.8127
+                    ΔAICc
+inverse-Gaussian   0.0000
+Dirac-δ          682.3557
+                     ΔAICc
+Joint population 0.0000000
+Sub-population   0.8421782

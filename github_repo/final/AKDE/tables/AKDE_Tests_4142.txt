@@ -1,0 +1,7 @@
+Elephant: 4142
+Fixes:            9751 (full screened track, no thinning)
+Best model:       OUF anisotropic
+Asymptote test:   Finite range (asymptote reached)
+Isotropy test:    Anisotropic preferred (best isotropic +75.3 AIC)
+tau_p (h):       67.073
+tau_v (h):       1.343

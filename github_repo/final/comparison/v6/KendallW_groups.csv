@@ -1,0 +1,7 @@
+"group","subset","methods","n","k","W","boot_low","boot_high","p"
+"occurrence","all","dBBMM+ETD+TGD",10,3,0.852,0.553,0.983,0.0062
+"occurrence","no4501","dBBMM+ETD+TGD",9,3,0.889,0.571,1,0.00631
+"UD","all","AKDE+dBBMM+ETD",10,3,0.86,0.605,0.986,0.00572
+"UD","no4501","AKDE+dBBMM+ETD",9,3,0.896,0.602,1,0.00591
+"all5","all","AKDE+dBBMM+ETD+TGD+aLOCOH",10,5,0.81,0.505,0.948,3.3e-05
+"all5","no4501","AKDE+dBBMM+ETD+TGD+aLOCOH",9,5,0.827,0.439,0.97,5.99e-05

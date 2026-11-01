@@ -1,0 +1,87 @@
+Phase 3 statistics on MethodComparison_Wide.csv — 2026-10-31 19:34:41 
+
+== Kendall's W (5 estimators) ==
+ subset  n k     W boot_low boot_high  chi2 df        p
+    all 10 5 0.810    0.506     0.943 36.45  9 3.30e-05
+ no4501  9 5 0.827    0.441     0.970 33.07  8 5.99e-05
+
+== Kendall's W on residuals after log(spread) ==
+ W_residual boot_low boot_high
+      0.336    0.217     0.437
+
+== Spearman (Holm over 10 pairs) ==
+ subset            pair                    type  n   rho boot_low boot_high
+    all   dBBMM vs SAEK   occurrence-occurrence 10 0.867    0.444     1.000
+    all  SAEK vs aLoCoH occurrence-fix geometry 10 0.867    0.405     1.000
+    all     SAEK vs TGD   occurrence-occurrence 10 0.842    0.362     1.000
+    all    AKDE vs SAEK        range-occurrence 10 0.818    0.259     1.000
+    all dBBMM vs aLoCoH occurrence-fix geometry 10 0.782    0.358     0.961
+    all   TGD vs aLoCoH occurrence-fix geometry 10 0.733    0.125     1.000
+    all  AKDE vs aLoCoH      range-fix geometry 10 0.721    0.019     0.988
+    all   AKDE vs dBBMM        range-occurrence 10 0.685    0.100     0.987
+    all     AKDE vs TGD        range-occurrence 10 0.685   -0.062     0.988
+    all    dBBMM vs TGD   occurrence-occurrence 10 0.624   -0.080     0.962
+ no4501   dBBMM vs SAEK   occurrence-occurrence  9 0.933    0.580     1.000
+ no4501     SAEK vs TGD   occurrence-occurrence  9 0.850    0.368     1.000
+ no4501    AKDE vs SAEK        range-occurrence  9 0.817    0.229     1.000
+ no4501 dBBMM vs aLoCoH occurrence-fix geometry  9 0.817    0.182     0.983
+ no4501  SAEK vs aLoCoH occurrence-fix geometry  9 0.817    0.243     1.000
+ no4501   AKDE vs dBBMM        range-occurrence  9 0.783    0.128     1.000
+ no4501    dBBMM vs TGD   occurrence-occurrence  9 0.717   -0.077     1.000
+ no4501     AKDE vs TGD        range-occurrence  9 0.700   -0.096     1.000
+ no4501  AKDE vs aLoCoH      range-fix geometry  9 0.700   -0.212     0.983
+ no4501   TGD vs aLoCoH occurrence-fix geometry  9 0.700   -0.053     1.000
+       p p_holm
+ 0.00268 0.0268
+ 0.00268 0.0268
+ 0.00446 0.0357
+ 0.00681 0.0477
+ 0.01170 0.0702
+ 0.02120 0.1060
+ 0.02420 0.1060
+ 0.03510 0.1060
+ 0.03510 0.1060
+ 0.06020 0.1060
+ 0.00075 0.0075
+ 0.00607 0.0546
+ 0.01080 0.0864
+ 0.01080 0.0864
+ 0.01080 0.0864
+ 0.01720 0.0864
+ 0.03690 0.1480
+ 0.04330 0.1480
+ 0.04330 0.1480
+ 0.04330 0.1480
+
+== Log Bland–Altman (AKDE / other) ==
+ subset    comparison  n ratio_mean ratio_low_CI ratio_high_CI LoA_low LoA_high
+    all  AKDE / dBBMM 10       1.42         0.83          2.43    0.33     6.19
+    all   AKDE / SAEK 10       1.52         1.22          1.90    0.84     2.78
+    all    AKDE / TGD 10       0.38         0.27          0.52    0.15     0.94
+    all AKDE / aLoCoH 10       3.46         2.50          4.78    1.43     8.38
+ no4501  AKDE / dBBMM  9       1.71         1.18          2.49    0.67     4.42
+ no4501   AKDE / SAEK  9       1.53         1.19          1.97    0.81     2.89
+ no4501    AKDE / TGD  9       0.37         0.25          0.54    0.14     0.96
+ no4501 AKDE / aLoCoH  9       3.39         2.35          4.88    1.34     8.58
+ LoA_low_CI LoA_high_CI trend_p
+  0.13-0.83  2.44-15.72   0.154
+  0.57-1.22    1.9-4.06   0.593
+  0.09-0.27   0.53-1.66   0.131
+   0.82-2.5  4.79-14.67   0.910
+  0.35-1.27    2.32-8.4   0.799
+  0.53-1.25   1.88-4.46   0.593
+  0.07-0.27    0.5-1.83   0.169
+  0.71-2.51  4.56-16.13   0.948
+
+== Area rank vs spread of fixes ==
+ subset method rho_vs_spread        p
+    all   AKDE         0.952 0.00e+00
+    all  dBBMM         0.867 2.68e-03
+    all   SAEK         0.891 1.38e-03
+    all    TGD         0.709 2.75e-02
+    all aLoCoH         0.782 1.17e-02
+ no4501   AKDE         0.983 4.96e-05
+ no4501  dBBMM         0.867 4.51e-03
+ no4501   SAEK         0.867 4.51e-03
+ no4501    TGD         0.717 3.69e-02
+ no4501 aLoCoH         0.717 3.69e-02

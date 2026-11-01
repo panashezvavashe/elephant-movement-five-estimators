@@ -1,0 +1,57 @@
+Analysis completed: 2026-09-01 16:31:25.801621 
+
+R version 4.6.0 (2026-04-24 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 10 x64 (build 21996)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] LC_COLLATE=English_United States.utf8  LC_CTYPE=English_United States.utf8   
+[3] LC_MONETARY=English_United States.utf8 LC_NUMERIC=C                          
+[5] LC_TIME=English_United States.utf8    
+
+time zone: Africa/Johannesburg
+tzcode source: internal
+
+attached base packages:
+[1] parallel  stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] vegan_2.7-3         permute_0.9-10      reshape2_1.4.5      rstatix_0.7.3      
+ [5] cowplot_1.2.0       circular_0.5-2      viridis_0.6.5       viridisLite_0.4.3  
+ [9] tidyr_1.3.2         dplyr_1.2.1         ggrepel_0.9.8       ggplot2_4.0.3      
+[13] sf_1.1-0            adehabitatHR_0.4.22 adehabitatLT_0.3.29 adehabitatMA_0.3.17
+[17] ade4_1.7-24         move_4.2.7          raster_3.6-32       sp_2.2-1           
+[21] geosphere_1.6-8     ctmm_1.3.0         
+
+loaded via a namespace (and not attached):
+  [1] libcoin_1.0-12          RColorBrewer_1.1-3      rstudioapi_0.18.0       jsonlite_2.0.0         
+  [5] magrittr_2.0.5          TH.data_1.1-5           modeltools_0.2-24       magick_2.9.1           
+  [9] farver_2.1.2            rmarkdown_2.31          ragg_1.5.2              vctrs_0.7.3            
+ [13] ROCR_1.0-12             memoise_2.0.1           askpass_1.2.1           terra_1.9-11           
+ [17] htmltools_0.5.9         broom_1.0.12            Formula_1.2-5           KernSmooth_2.23-26     
+ [21] sandwich_3.1-1          plyr_1.8.9              zoo_1.8-15              lubridate_1.9.5        
+ [25] cachem_1.1.0            uuid_1.2-2              lifecycle_1.0.5         pkgconfig_2.0.3        
+ [29] webshot2_0.1.2          Matrix_1.7-5            R6_2.6.1                fastmap_1.2.0          
+ [33] digest_0.6.39           numDeriv_2016.8-1.1     patchwork_1.3.2         RSpectra_0.16-2        
+ [37] textshaping_1.0.5       labeling_0.4.3          timechange_0.4.0        httr_1.4.8             
+ [41] abind_1.4-8             mgcv_1.9-4              compiler_4.6.0          proxy_0.4-29           
+ [45] fontquiver_0.2.1        withr_3.0.2             S7_0.2.2                backports_1.5.1        
+ [49] carData_3.0-6           DBI_1.3.0               MASS_7.3-65             openssl_2.4.0          
+ [53] classInt_0.4-11         tools_4.6.0             chromote_0.5.1          units_1.0-1            
+ [57] otel_0.2.0              zip_2.3.3               fftw_1.0-9              glue_1.8.1             
+ [61] nlme_3.1-169            promises_1.5.0          grid_4.6.0              cluster_2.1.8.2        
+ [65] generics_0.1.4          gtable_0.3.6            class_7.3-23            websocket_1.4.4        
+ [69] data.table_1.18.2.1     xml2_1.5.2              car_3.1-5               coin_1.4-3             
+ [73] pillar_1.11.1           stringr_1.6.0           later_1.4.8             robustbase_0.99-7      
+ [77] splines_4.6.0           lattice_0.22-9          survival_3.8-6          tidyselect_1.2.1       
+ [81] fontLiberation_0.1.0    Gmedian_1.2.7           knitr_1.51              fontBitstreamVera_0.1.1
+ [85] gridExtra_2.3           stats4_4.6.0            xfun_0.57               expm_1.0-0             
+ [89] matrixStats_1.5.0       DEoptimR_1.1-4          stringi_1.8.7           boot_1.3-32            
+ [93] geojsonsf_2.0.5         evaluate_1.0.5          codetools_0.2-20        officer_0.7.4          
+ [97] gdtools_0.5.0           tibble_3.3.1            cli_3.6.6               systemfonts_1.3.2      
+[101] processx_3.9.0          Rcpp_1.1.1-1.1          mvtnorm_1.3-7           scales_1.4.0           
+[105] e1071_1.7-17            purrr_1.2.2             flextable_0.9.11        rlang_1.2.0            
+[109] multcomp_1.4-30        

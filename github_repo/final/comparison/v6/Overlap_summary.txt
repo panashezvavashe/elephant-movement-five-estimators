@@ -1,0 +1,153 @@
+Between-estimator overlap, v6 — 2026-10-31 19:37:41 
+
+== Grid QC: UD mass captured by the common 250 m grid ==
+   ID method mass_on_grid grid_cells
+ 3905   AKDE       0.9970     558675
+ 3905  dBBMM       0.9996     558675
+ 3905    ETD       1.0000     558675
+ 3906   AKDE       0.9972     109521
+ 3906  dBBMM       1.0009     109521
+ 3906    ETD       0.9999     109521
+ 3907   AKDE       0.9971     322525
+ 3907  dBBMM       1.0000     322525
+ 3907    ETD       1.0000     322525
+ 4141   AKDE       0.9971     206492
+ 4141  dBBMM       1.0004     206492
+ 4141    ETD       1.0000     206492
+ 4142   AKDE       0.9972     459404
+ 4142  dBBMM       1.0002     459404
+ 4142    ETD       1.0000     459404
+ 4501   AKDE       0.9959    1856262
+ 4501  dBBMM       1.0000    1856262
+ 4501    ETD       1.0001    1856262
+ 4556   AKDE       0.9975     603705
+ 4556  dBBMM       1.0002     603705
+ 4556    ETD       1.0000     603705
+ 4558   AKDE       0.9968     189406
+ 4558  dBBMM       1.0000     189406
+ 4558    ETD       1.0000     189406
+ 4559   AKDE       0.9966     480480
+ 4559  dBBMM       1.0001     480480
+ 4559    ETD       1.0000     480480
+ 4560   AKDE       0.9959     174930
+ 4560  dBBMM       0.9977     174930
+ 4560    ETD       1.0000     174930
+
+== Bhattacharyya coefficient ==
+ subset          pair                  type  n  mean median   min   max
+    all  AKDE vs SAEK      range-occurrence 10 0.905  0.883 0.799 0.993
+    all AKDE vs dBBMM      range-occurrence 10 0.874  0.891 0.746 0.988
+    all dBBMM vs SAEK occurrence-occurrence 10 0.959  0.973 0.827 0.994
+ no4501  AKDE vs SAEK      range-occurrence  9 0.907  0.879 0.799 0.993
+ no4501 AKDE vs dBBMM      range-occurrence  9 0.869  0.865 0.746 0.988
+ no4501 dBBMM vs SAEK occurrence-occurrence  9 0.974  0.979 0.944 0.994
+ boot_low boot_high
+    0.867     0.943
+    0.821     0.925
+    0.926     0.981
+    0.864     0.950
+    0.811     0.927
+    0.962     0.984
+
+== Jaccard (95% polygons) ==
+ subset            pair                    type  n  mean median   min   max
+    all    AKDE vs SAEK        range-occurrence 10 0.624  0.602 0.388 0.868
+    all     AKDE vs TGD        range-occurrence 10 0.405  0.390 0.131 0.666
+    all  AKDE vs aLoCoH      range-fix geometry 10 0.315  0.268 0.151 0.524
+    all   AKDE vs dBBMM        range-occurrence 10 0.517  0.544 0.257 0.824
+    all     SAEK vs TGD   occurrence-occurrence 10 0.255  0.262 0.141 0.345
+    all  SAEK vs aLoCoH occurrence-fix geometry 10 0.446  0.425 0.345 0.583
+    all   TGD vs aLoCoH occurrence-fix geometry 10 0.115  0.106 0.066 0.167
+    all   dBBMM vs SAEK   occurrence-occurrence 10 0.731  0.803 0.163 0.887
+    all    dBBMM vs TGD   occurrence-occurrence 10 0.254  0.220 0.107 0.443
+    all dBBMM vs aLoCoH occurrence-fix geometry 10 0.461  0.464 0.062 0.656
+ no4501    AKDE vs SAEK        range-occurrence  9 0.630  0.634 0.388 0.868
+ no4501     AKDE vs TGD        range-occurrence  9 0.399  0.348 0.131 0.666
+ no4501  AKDE vs aLoCoH      range-fix geometry  9 0.323  0.276 0.151 0.524
+ no4501   AKDE vs dBBMM        range-occurrence  9 0.546  0.584 0.302 0.824
+ no4501     SAEK vs TGD   occurrence-occurrence  9 0.249  0.258 0.141 0.345
+ no4501  SAEK vs aLoCoH occurrence-fix geometry  9 0.457  0.460 0.345 0.583
+ no4501   TGD vs aLoCoH occurrence-fix geometry  9 0.116  0.100 0.066 0.167
+ no4501   dBBMM vs SAEK   occurrence-occurrence  9 0.794  0.812 0.600 0.887
+ no4501    dBBMM vs TGD   occurrence-occurrence  9 0.233  0.217 0.107 0.398
+ no4501 dBBMM vs aLoCoH occurrence-fix geometry  9 0.506  0.478 0.380 0.656
+ boot_low boot_high
+    0.530     0.724
+    0.314     0.495
+    0.237     0.397
+    0.405     0.629
+    0.216     0.291
+    0.395     0.500
+    0.092     0.139
+    0.584     0.839
+    0.190     0.318
+    0.353     0.550
+    0.523     0.738
+    0.301     0.502
+    0.235     0.413
+    0.433     0.658
+    0.207     0.287
+    0.405     0.512
+    0.090     0.141
+    0.727     0.853
+    0.177     0.292
+    0.448     0.565
+
+== Centroid distance (km) ==
+ subset            pair                    type  n  mean median   min   max
+    all    AKDE vs SAEK        range-occurrence 10 1.549  0.779 0.082 5.541
+    all     AKDE vs TGD        range-occurrence 10 4.339  4.538 0.677 7.415
+    all  AKDE vs aLoCoH      range-fix geometry 10 1.077  1.021 0.234 2.324
+    all   AKDE vs dBBMM        range-occurrence 10 1.527  1.064 0.270 3.082
+    all     SAEK vs TGD   occurrence-occurrence 10 3.047  3.006 0.381 5.822
+    all  SAEK vs aLoCoH occurrence-fix geometry 10 1.609  0.910 0.403 5.310
+    all   TGD vs aLoCoH occurrence-fix geometry 10 4.330  5.072 1.307 7.552
+    all   dBBMM vs SAEK   occurrence-occurrence 10 0.836  0.529 0.067 4.050
+    all    dBBMM vs TGD   occurrence-occurrence 10 3.356  3.677 0.721 5.467
+    all dBBMM vs aLoCoH occurrence-fix geometry 10 1.330  1.064 0.029 4.167
+ no4501    AKDE vs SAEK        range-occurrence  9 1.105  0.621 0.082 2.605
+ no4501     AKDE vs TGD        range-occurrence  9 4.226  4.486 0.677 7.415
+ no4501  AKDE vs aLoCoH      range-fix geometry  9 1.171  1.086 0.588 2.324
+ no4501   AKDE vs dBBMM        range-occurrence  9 1.458  0.976 0.270 3.082
+ no4501     SAEK vs TGD   occurrence-occurrence  9 3.343  3.566 0.729 5.822
+ no4501  SAEK vs aLoCoH occurrence-fix geometry  9 1.198  0.578 0.403 3.684
+ no4501   TGD vs aLoCoH occurrence-fix geometry  9 4.241  5.017 1.307 7.552
+ no4501   dBBMM vs SAEK   occurrence-occurrence  9 0.479  0.529 0.067 1.088
+ no4501    dBBMM vs TGD   occurrence-occurrence  9 3.285  3.653 0.721 5.467
+ no4501 dBBMM vs aLoCoH occurrence-fix geometry  9 1.262  0.799 0.029 4.167
+ boot_low boot_high
+    0.647     2.642
+    2.924     5.700
+    0.741     1.457
+    0.925     2.162
+    2.003     4.130
+    0.760     2.669
+    3.044     5.555
+    0.341     1.618
+    2.485     4.220
+    0.731     2.080
+    0.495     1.776
+    2.735     5.700
+    0.848     1.549
+    0.827     2.166
+    2.335     4.353
+    0.640     1.922
+    2.858     5.625
+    0.298     0.676
+    2.308     4.240
+    0.641     2.104
+
+== UD mass inside TGD / aLoCoH polygons ==
+ subset polygon    UD  n  mean median   min   max boot_low boot_high
+    all     TGD  AKDE 10 0.995  0.999 0.982 1.000    0.991     0.998
+    all     TGD  SAEK 10 0.999  1.000 0.995 1.000    0.998     1.000
+    all     TGD dBBMM 10 0.984  1.000 0.862 1.000    0.956     1.000
+    all  aLoCoH  AKDE 10 0.508  0.453 0.282 0.830    0.398     0.624
+    all  aLoCoH  SAEK 10 0.695  0.700 0.556 0.835    0.642     0.751
+    all  aLoCoH dBBMM 10 0.712  0.738 0.386 0.840    0.628     0.776
+ no4501     TGD  AKDE  9 0.995  0.999 0.982 1.000    0.990     0.999
+ no4501     TGD  SAEK  9 1.000  1.000 0.998 1.000    0.999     1.000
+ no4501     TGD dBBMM  9 0.997  1.000 0.982 1.000    0.993     1.000
+ no4501  aLoCoH  AKDE  9 0.520  0.490 0.282 0.830    0.400     0.643
+ no4501  aLoCoH  SAEK  9 0.711  0.726 0.592 0.835    0.659     0.763
+ no4501  aLoCoH dBBMM  9 0.748  0.740 0.635 0.840    0.709     0.786
