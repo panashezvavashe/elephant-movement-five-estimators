@@ -1,0 +1,62 @@
+Second-round quick checks — 2026-11-09 13:47:14.037563 
+
+== C1. Kendall's W with permutation p ( 10000 column-wise permutations) ==
+ subset             measure      W null_mean null_q95      p
+    all           W (areas) 0.8099    0.2000   0.3533 0.0001
+    all W after log(spread) 0.3358    0.1997   0.3532 0.0674
+ no4501           W (areas) 0.8267    0.2018   0.3667 0.0001
+ no4501 W after log(spread) 0.3787    0.2004   0.3653 0.0400
+
+== C3 pre-check. Spearman: area vs tracking duration (months) ==
+          method rho_area_vs_months     p rho_resid_vs_months p_resid
+            AKDE              0.139 0.707              -0.394  0.2630
+           dBBMM             -0.006 1.000               0.248  0.4920
+            SAEK              0.030 0.946               0.358  0.3130
+             TGD              0.297 0.407               0.261  0.4700
+          aLoCoH              0.261 0.470               0.612  0.0665
+ spread of fixes              0.079    NA                  NA      NA
+
+Track durations (months):
+# A tibble: 10 × 2
+      ID months
+   <int>  <dbl>
+ 1  3905   35.4
+ 2  3906   33.8
+ 3  3907   35.6
+ 4  4141   61.6
+ 5  4142   58.1
+ 6  4501   43.5
+ 7  4556   56.3
+ 8  4558   45.3
+ 9  4559   56.3
+10  4560   44  
+
+== C2. Season-year area vs full-period AKDE 95% ==
+Larger than full-period: 38 of 77; CI lower bound above full-period: 7
+
+By N_eff class:
+ neff_class  n pct_larger larger sig_larger median_ratio
+      10-30 27       55.6     15          3         1.05
+      >= 30 33       30.3     10          3         0.41
+ N_eff < 10 17       76.5     13          1         1.50
+
+By season:
+ season  n pct_larger larger sig_larger median_ratio
+    dry 40       25.0     10          3         0.56
+    wet 37       75.7     28          4         1.25
+
+By asymptote class:
+                  asymptote  n larger median_ratio
+ reached (span >= 10 tau_p) 64     28         0.81
+     weak (span < 10 tau_p) 13     10         1.62
+
+Spearman log(ratio) vs log(N_eff): rho = -0.648, p = 1.96e-10
+Fisher (N_eff<10 vs larger): OR = 4.46, p = 0.0141
+
+Logistic: larger ~ log(N_eff) + season
+            Estimate Std. Error z value Pr(>|z|)
+(Intercept)    2.819      1.146   2.460    0.014
+log(N_eff)    -1.246      0.364  -3.419    0.001
+seasonwet      2.233      0.611   3.652    0.000
+
+span / tau_p: median 24.9 range 3.8-266.4 

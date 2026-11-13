@@ -1,0 +1,5 @@
+"subset","measure","n","W","boot_low","boot_high","p_perm"
+"all","W (window areas)",10,0.895,0.652,0.972,1e-04
+"all","W after log(spread)",10,0.28,0.167,0.362,0.17
+"no4501","W (window areas)",9,0.888,0.58,0.986,1e-04
+"no4501","W after log(spread)",9,0.335,0.16,0.502,0.0782

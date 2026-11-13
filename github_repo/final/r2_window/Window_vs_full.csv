@@ -1,0 +1,6 @@
+"method","rho_window_vs_full","p","median_ratio_window_to_full"
+"AKDE",0.976,0,1.07
+"dBBMM",0.927,0.00013,0.84
+"SAEK",0.927,0.00013,0.95
+"TGD",0.915,0.000467,0.94
+"aLoCoH",0.952,0,0.98

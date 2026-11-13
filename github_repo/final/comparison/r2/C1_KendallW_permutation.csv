@@ -1,0 +1,5 @@
+"subset","measure","W","null_mean","null_q95","p"
+"all","W (areas)",0.8099,0.2,0.3533,1e-04
+"all","W after log(spread)",0.3358,0.1997,0.3532,0.0674
+"no4501","W (areas)",0.8267,0.2018,0.3667,1e-04
+"no4501","W after log(spread)",0.3787,0.2004,0.3653,0.04

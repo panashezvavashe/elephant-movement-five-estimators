@@ -1,0 +1,2 @@
+"ID","Method","Area_km2","AIC","area_low","area_high","model","N_eff","n_fixes","win_start","win_end","mins"
+3907,"AKDE",407.848527387338,175371.793844541,343.88276870347,477.189707217392,"OUF anisotropic",143.654272865372,5177,"2021-05-29","2023-06-22",17.1

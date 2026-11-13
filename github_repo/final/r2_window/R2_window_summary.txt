@@ -1,0 +1,79 @@
+Common-window rank agreement — 2026-11-09 15:42:08 
+Window: 2021-05-29 to 2023-06-22 
+
+== 95% areas in the window (km²) ==
+   ID   AKDE  dBBMM   ETD    TGD aLOCOH
+ 3905  949.0  318.7 403.8 1585.1  155.2
+ 3906  177.0   50.4  82.5  471.3   30.8
+ 3907  407.8  271.8 291.5 1227.9  113.7
+ 4141  468.8  198.5 234.4  815.8  133.9
+ 4142  191.1  142.2 207.1 1061.7   79.2
+ 4501  751.5 1785.8 440.2 1361.9  148.3
+ 4556 1047.1  540.0 623.5 1912.3  316.8
+ 4558  629.5  167.4 214.2  840.3   95.6
+ 4559 1433.4  581.3 589.5 1893.7  291.2
+ 4560  259.6  207.8 235.2  869.7  133.7
+
+== Fixes per animal in the window ==
+   ID n_fixes
+ 3905    5869
+ 3906    5176
+ 3907    5177
+ 4141    5313
+ 4142    4457
+ 4501    1787
+ 4556    5847
+ 4558    5895
+ 4559    5864
+ 4560    5728
+
+== Kendall's W ==
+ subset             measure  n     W boot_low boot_high p_perm
+    all    W (window areas) 10 0.895    0.652     0.972 0.0001
+    all W after log(spread) 10 0.280    0.167     0.362 0.1700
+ no4501    W (window areas)  9 0.888    0.580     0.986 0.0001
+ no4501 W after log(spread)  9 0.335    0.160     0.502 0.0782
+
+== Spearman (Holm over 10 pairs) ==
+ subset            pair   rho boot_low boot_high        p   p_holm
+    all   AKDE vs dBBMM 0.818    0.372     1.000 6.81e-03 0.022200
+    all    AKDE vs SAEK 0.867    0.385     0.988 2.68e-03 0.016100
+    all     AKDE vs TGD 0.794    0.182     1.000 9.84e-03 0.022200
+    all  AKDE vs aLoCoH 0.903    0.468     1.000 8.80e-04 0.007040
+    all   dBBMM vs SAEK 0.952    0.623     1.000 0.00e+00 0.000000
+    all    dBBMM vs TGD 0.830    0.391     0.988 5.56e-03 0.022200
+    all dBBMM vs aLoCoH 0.867    0.450     1.000 2.68e-03 0.016100
+    all     SAEK vs TGD 0.903    0.528     1.000 8.80e-04 0.007040
+    all  SAEK vs aLoCoH 0.939    0.623     1.000 0.00e+00 0.000000
+    all   TGD vs aLoCoH 0.818    0.203     1.000 6.81e-03 0.022200
+ no4501   AKDE vs dBBMM 0.850    0.174     1.000 6.07e-03 0.027100
+ no4501    AKDE vs SAEK 0.833    0.174     1.000 8.27e-03 0.027100
+ no4501     AKDE vs TGD 0.717   -0.077     1.000 3.69e-02 0.051000
+ no4501  AKDE vs aLoCoH 0.867    0.350     1.000 4.51e-03 0.027100
+ no4501   dBBMM vs SAEK 0.983    0.817     1.000 4.96e-05 0.000496
+ no4501    dBBMM vs TGD 0.867    0.350     1.000 4.51e-03 0.027100
+ no4501 dBBMM vs aLoCoH 0.917    0.478     1.000 1.31e-03 0.010500
+ no4501     SAEK vs TGD 0.883    0.350     1.000 3.08e-03 0.021500
+ no4501  SAEK vs aLoCoH 0.933    0.478     1.000 7.50e-04 0.006750
+ no4501   TGD vs aLoCoH 0.750   -0.036     1.000 2.55e-02 0.051000
+
+== Window vs full period, per estimator ==
+ method rho_window_vs_full        p median_ratio_window_to_full
+   AKDE              0.976 0.000000                        1.07
+  dBBMM              0.927 0.000130                        0.84
+   SAEK              0.927 0.000130                        0.95
+    TGD              0.915 0.000467                        0.94
+ aLoCoH              0.952 0.000000                        0.98
+
+== Ranks in the window (1 = smallest) ==
+   ID AKDE dBBMM SAEK TGD aLoCoH
+ 3905    8     7    7   8      8
+ 3906    1     1    1   1      1
+ 3907    4     6    6   6      4
+ 4141    5     4    4   2      6
+ 4142    2     2    2   5      2
+ 4501    7    10    8   7      7
+ 4556    9     8   10  10     10
+ 4558    6     3    3   3      3
+ 4559   10     9    9   9      9
+ 4560    3     5    5   4      5
